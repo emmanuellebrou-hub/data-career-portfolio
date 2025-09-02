@@ -1,0 +1,9 @@
+{
+	"name": "emmab-intech-df",
+	"location": "francecentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5476573e-4202-4800-b434-ad7e3a1102cb",
+		"tenantId": "ada8b639-fd5c-4ec1-959d-ad3eb85d595e"
+	}
+}
