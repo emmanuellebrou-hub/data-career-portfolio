@@ -16,8 +16,7 @@ L’accent est mis sur l’infrastructure Azure et l’automatisation du pipelin
 
 ## Architecture
 
-IMAGE TO INSERT
-
+![image alt](https://github.com/emmanuellebrou-hub/data-career-portfolio/blob/main/data-engineering-azure-project/project-architecture.png?raw=true)
 
 ---
 
@@ -28,5 +27,6 @@ IMAGE TO INSERT
 - databricks/             : Notebooks et scripts liés à Databricks pour le traitement des données
 - sql/                    : Requêtes SQL
 - README.md               : Documentation du projet
+
 
 
