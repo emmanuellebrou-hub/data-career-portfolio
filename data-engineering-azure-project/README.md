@@ -23,9 +23,10 @@ IMAGE TO INSERT
 
 ## Fichiers
 
-- azure-data-studio/      # Configuration Git et environnement du projet pour Azure Data Studio ; fichiers JSON 
-- data-destination        # Fichier Power BI Desktop (.pbix) pour la destination des données (sans visuels)
-- databricks/             # Notebooks et scripts liés à Databricks pour le traitement des données
-- sql/                    #  Requêtes SQL
-- README.md               # Documentation du projet
+- azure-data-studio/      : Configuration Git et environnement du projet pour Azure Data Studio ; fichiers JSON 
+- data-destination        : Fichier Power BI Desktop (.pbix) pour la destination des données (sans visuels)
+- databricks/             : Notebooks et scripts liés à Databricks pour le traitement des données
+- sql/                    : Requêtes SQL
+- README.md               : Documentation du projet
+
 
