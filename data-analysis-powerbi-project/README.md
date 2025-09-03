@@ -16,10 +16,10 @@ Les données de ventes sont simulées via des **requêtes SQL dynamiques**, ce q
 - **DAX** pour les mesures (CA, nombre de ventes, panier moyen, etc.)  
 
 ## Structure du projet  
-├── sql : fichiers des requêtes SQL utilisées
-├── pbix : Rapport Power BI connecté en Direct Query à la base de données SQL Server
-└── README.md
+- sql : fichiers des requêtes SQL utilisées
+- pbix : Rapport Power BI connecté en Direct Query à la base de données SQL Server
 
 ## Démo 
 
 ![Alt Text](https://github.com/emmanuellebrou-hub/data-career-portfolio/blob/98fe728585ea854b65386b532e00ff24200a2a54/data-analysis-powerbi-project/dashboard_gif.gif)
+
