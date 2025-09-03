@@ -26,5 +26,6 @@ Le projet inclut à la fois le code d’entraînement et l’application web pou
 
 ## Structure du projet
 
-app.py                          --->   Application web Streamlit
-stock-market-prediction.ipynb   ---> Notebook d’entraînement et de dev du modèle
+- app.py                          --->   Application web Streamlit
+- stock-market-prediction.ipynb   ---> Notebook d’entraînement et de dev du modèle
+
