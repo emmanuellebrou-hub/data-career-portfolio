@@ -21,5 +21,6 @@ Les données de ventes sont simulées via des **requêtes SQL dynamiques**, ce q
 
 ## Démo 
 
-![Alt Text](https://github.com/emmanuellebrou-hub/data-career-portfolio/blob/98fe728585ea854b65386b532e00ff24200a2a54/data-analysis-powerbi-project/dashboard_gif.gif)
+<img src="https://github.com/emmanuellebrou-hub/data-career-portfolio/blob/98fe728585ea854b65386b532e00ff24200a2a54/data-analysis-powerbi-project/dashboard_gif.gif" width="600"/>
+
 
