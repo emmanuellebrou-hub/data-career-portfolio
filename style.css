@@ -311,10 +311,28 @@ button { cursor: pointer; }
 .contact-container { grid-template-columns: 300px 340px; column-gap: 3rem; justify-content: center; align-items: center; }
 .contact-info {
   display: grid;
-  grid-template-columns: 300px 300px; /* largeur de chaque carte */
+  grid-template-columns: 300px 300px; /*largeur de chaque carte */
   gap: 2rem; /* espace horizontal */
+   justify-content: center; /* centre les cartes sur grand écran */
+   margin: 0 auto; /* centre le grid sur la page */
 }
-.contact-card { background-color: var(--box-color); padding: 1rem; border-radius: .5rem; text-align: center; }
+
+.contact-card { background-color: var(--box-color); padding: 1rem; border-radius: .5rem; text-align: center;}
+
+/* Media query pour les écrans petits/tablettes */
+@media (max-width: 640px) {
+  .contact-info {
+    grid-template-columns: 1fr; /* une seule colonne */
+  }
+}
+
+/* Grands écrans : translation horizontale */
+@media (min-width: 641px) {
+  .contact-info {
+    transform: translateX(180px);
+  }
+}
+
 .contact-card-icon { font-size: 1.8rem; color: var(--title-color); margin-bottom: var(--mb025); }
 .contact-card-title, .contact-card-data { font-size: var(--small-font-size); }
     .contact-card-title { font-weight: var(--font-medium); }
