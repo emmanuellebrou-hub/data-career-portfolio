@@ -55,7 +55,7 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body, button, input { font-family: var(--body-font); font-size: var(--normal-font-size); }
-    body { background-color: var(--body-color); color: var(--text-color); }
+    body { background-color: var(--body-color); color: var(--text-color); overflow-x: hidden;}
 h1, h2, h3 { color: var(--title-color); font-weight: var(--font-bold); }
 ul { list-style: none; }
 a { text-decoration: none; }
@@ -531,3 +531,4 @@ textarea.input { padding: 0.8rem 1.2rem; min-height: 140px; border-radius: .5rem
     margin-top: 20px; 
     margin-bottom: 20px;
 }
+
