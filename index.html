@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmanuelle BROU | Portfolio</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-toggle" id="nav-toggle">
+        <i class="uil uil-bars"></i>
+    </div>
+
+    <aside class="sidebar" id="sidebar">
+        <nav class="nav">
+            <div class="nav-logo">
+                <a href="#" class="nav-logo-text">EB</a>
+            </div>
+
+            <div class="nav-menu">
+                <div class="menu">
+                    <ul class="nav-list">
+
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">Profil</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#Qualifications" class="nav-link">Parcours</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#skills" class="nav-link">compétences</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#work" class="nav-link">Projets</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="nav-close" id="nav-close">
+                <i class="uil uil-times"></i>
+            </div>
+        </nav>
+    </aside>
+
+    <main class="main">
+
+        <section class="about section" id="about">
+            <h2 class="section-title" >Profil</h2>
+
+            <div class="about-container container grid">
+                <img src=".\img\emmaBROU.jpg" alt="" class="about-img">
+
+                <div class="about-data">
+                    <h3 class="about-heading">Assamela Emmanuelle BROU</h3>
+                    <p class="about-description">Passionnée par la donnée et son impact stratégique, je recherche une nouvelle opportunité en business intelligence
+                         et ingénierie des données. Polyvalente et orientée métier, je suis disponible immédiatement et mobile partout en France.</p>
+
+                    <a href="#contact" class="button"><i class="uil uil-navigator button-icon"></i>Me contacter</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="qualification section" id="Qualifications">
+            <h2 class="section-title">Parcours</h2>
+
+            <div class="qualification-container container grid">
+                <div class="education">
+                    <h3 class="qualification-title"><i class="uil uil-graduation-cap"></i>Formation</h3>
+
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-title">Master MIAGE Data & Business Intelligence</h3>
+                            <p class="timeline-text">Université de Rennes, Rennes</p>
+                            <span class="timeline-date"><i class="uil uil-calendar-alt"></i>2022 - 2024</span>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-title">Licence MIAGE</h3>
+                            <p class="timeline-text">Université Félix Houphouët-Boigny, Abidjan</p>
+                            <span class="timeline-date"><i class="uil uil-calendar-alt"></i>2018 - 2021</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience">
+                    <h3 class="qualification-title"><i class="uil uil-suitcase"></i>Experiences professionnelles</h3>
+
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-title">Data Analyst Business Intelligence</h3>
+                            <p class="timeline-text">SYMRISE, Rennes</p>
+                            <span class="timeline-date"><i class="uil uil-calendar-alt"></i>Mars 2024 - Août 2024</span>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-title">Data Analyst Business Intelligence</h3>
+                            <p class="timeline-text">SYMRISE, Rennes</p>
+                            <span class="timeline-date"><i class="uil uil-calendar-alt"></i>Mai 2023 - Août 2023</span>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-title">Data Analyst</h3>
+                            <p class="timeline-text">EXIAS, Abidjan</p>
+                            <span class="timeline-date"><i class="uil uil-calendar-alt"></i>Février 2021 - Mars 2022</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Compétences</h2>
+
+            <div class="skills-container container grid">
+                <div class="skills-tabs">
+                    <div class="skills-header skills-active" data-target="#data-analysis">
+                        <i class="uil uil-database-alt skills-icon"></i>
+                        <div>
+                            <h1 class="skills-title">Data & BI Analyst</h1>
+                            <span class="skills-subtitle">Power BI, Tableau, Excel avancé, VBA, KPI dashboards, data storytelling</span>
+                        </div>
+                    </div>
+                    <div class="skills-header" data-target="#cloud">
+                        <i class="uil uil-cloud skills-icon"></i>
+                        <div>
+                            <h1 class="skills-title">Cloud & Data Engineering</h1>
+                            <span class="skills-subtitle">Microsoft Azure, ETL, Data Pipelines, SSIS, Hadoop, Spark, gestion des flux </span>
+                        </div>
+                    </div>
+
+                    <div class="skills-header" data-target="#data-science">
+                        <i class="uil uil-robot skills-icon"></i>
+                        <div>
+                            <h1 class="skills-title">Data Science / AI</h1>
+                            <span class="skills-subtitle">Python (Pandas, Scikit-Learn, PyTorch,Keras), classification, clustering, réseaux de neurones </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-tabs">
+                    <div class="skills-header skills-active" data-target="#project-management">
+                        <i class="uil uil-clipboard-notes skills-icon"></i>
+                        <div>
+                            <h1 class="skills-title">Gestion de projet</h1>
+                            <span class="skills-subtitle">Planning, suivi, coordination, méthodes agiles, rédaction de documentations</span>
+                        </div>
+                    </div>
+
+                    <div class="skills-header" data-target="#client-support">
+                        <i class="uil uil-user skills-icon"></i>
+                        <div>
+                            <h1 class="skills-title">AMOA et support client</h1>
+                            <span class="skills-subtitle">Recueil de besoins, Spécifications fonctionnelles et techniques</span>
+                        </div>
+                    </div>
+
+                    <div class="skills-header" data-target="#soft-skills">
+                        <i class="uil uil-user-check skills-icon"></i>
+                        <div>
+                            <h1 class="skills-title">Soft Skills</h1>
+                            <span class="skills-subtitle">Collaboration, Communication, Leadership associatif</span>
+                        </div>
+                    </div>
+                </div>  
+
+            </div>
+        </section>
+
+        <section class="work section" id="work">
+            <h2 class="section-title">Mes projets récents</h2>
+            <div class="work-container container grid">
+                <div class="work-card mix">
+                  <h3 class="work-title">Ingénierie de données et Cloud</h3>
+                    <p> Mise en place d'une infrastructure Azure complète pour l'extraction, 
+                        la transformation et le chargement des données de ventes depuis un serveur SQL Server vers Power BI.
+                    </p>
+
+                    <p class = "work-tech-list"> Microsoft SQL Server | Microsoft Azure : Azure Data Factory, Azure Data Lake, Databricks, Synapse Analytics
+                        | Power BI
+                    </p> 
+                    
+                    <a href="https://github.com/emmanuellebrou-hub/data-career-portfolio/tree/main/data-engineering-azure-project" class="work-button">
+                                voir le code source<i class="uil uil-arrow-right work-button-icon"></i>
+                    </a>
+                </div>
+
+                <div class="work-card mix">
+                  <h3 class="work-title">Analyse de données</h3>
+                    <p> Mise en place d’un rapport Power BI intéractifs, pour l'analyse des ventes.
+                    </p>
+
+                    <p class = "work-tech-list">
+                        Power BI | DAX
+                    </p> 
+                    
+                    <a href="https://github.com/emmanuellebrou-hub/data-career-portfolio/tree/main/data-analysis-powerbi-project" class="work-button">
+                                voir le code source<i class="uil uil-arrow-right work-button-icon"></i>
+                    </a>
+                </div>
+
+                <div class="work-card mix">
+                  <h3 class="work-title">Apprentissage automatique : prédiction</h3>
+                    <p> Développement d’une application web permettant de prédire le cours boursier d’un titre à partir de son code (ticker).
+                    </p>
+
+                    <p class = "work-tech-list"> Python : sklearn, keras, tensorflow, streamlit | Jupyter Notebook
+                    </p> 
+                    
+                    <a href="https://github.com/emmanuellebrou-hub/data-career-portfolio/tree/main/data-science-machine-learning-project" class="work-button">
+                                voir le code source<i class="uil uil-arrow-right work-button-icon"></i>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="portfolio-popup">
+            <div class="portfolio-popup-inner">
+                <div class="portfolio-popup-content grid">
+                    <span class="portfolio-popup-close"><i class="uil uil-times"></i></span>
+                    <div class="pp-thumbnail">
+                        <img src="https://i.postimg.cc/sXLjnC5p/work-2.png" alt="" class="portfolio-popup-img">
+                    </div>
+
+                    <div class="portfolio-popup-info">
+                        <div class="portfolio-popup-subtitle">Featured - <span>Design</span></div>
+                        <div class="portfolio-popup-body">
+                            <h3 class="details-title">App for Technology & Services</h3>
+                            <p class="details-description">A stylish burger restaurant mobile app interface displayed on two smartphones</p>
+
+                            <ul class="details-info">
+                                <li>Created - <span>15 Apr 2025</span></li>
+                                <li>Technologies - <span>html css</span></li>
+                                <li>Role - <span>frontend</span></li>
+                                <li>View - <span><a href="#">www.domain.com</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="contact section" id="contact">
+            <h2 class="section-title" >Contact</h2>
+
+            <div class="contact-container container grid">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <i class="uil uil-envelope-edit contact-card-icon"></i>
+                            <h3 class="contact-card-title">Email</h3>
+                            <a href="mailto:emmanuellebrou@gmail.com" class="contact-button">
+                                M'envoyer un mail <i class="uil uil-arrow-right contact-button-icon"></i>
+                            </a>
+                        </div>
+
+                        <div class="contact-card">
+                            <i class="uil uil-linkedin contact-card-icon"></i>
+                            <h3 class="contact-card-title">LinkedIn</h3>
+                            <a href="https://www.linkedin.com/in/ebrou/" class="contact-button">
+                                Visiter mon profil<i class="uil uil-arrow-right contact-button-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <footer class="footer">
+            <div class="footer-bg">
+                <div class="footer-container container grid">
+                    <div>
+                        <h1 class="footer-title">Assamela Emmanuelle BROU</h1>
+                        <span class="footer-subtitle">Data Analyst | Business Intelligence Engineer & Cloud Analytics</span>
+                    </div>
+
+                    <ul class="footer-links">
+                        
+                    </ul>
+
+                    <div class="footer-socials">
+                        <a href="https://www.linkedin.com/in/ebrou/" target="_blank" class="footer-social">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+
+                        <a href="https://github.com/emmanuellebrou-hub/data-career-portfolio" target="_blank" class="footer-social">
+                            <i class="uil uil-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <p class="footer-copy">&#169; <a href="">ULTRA CODE</a>. All rights reserved</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
