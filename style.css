@@ -208,7 +208,7 @@ button { cursor: pointer; }
 
 /* Main - Work */ 
 
-.work-container { grid-template-columns: repeat(3, 330px); gap: 1.8rem; justify-content: center; padding-top: 1rem; }
+.work-container { grid-template-columns: repeat(1, 850px); gap: 1.8rem; justify-content: center; padding-top: 1rem; }
 .work-filters { display: flex; justify-content: center; align-items: center; column-gap: .75rem; margin-bottom: 2rem; }
 .work-item { cursor: pointer; color: var(--title-color); padding: 0.25rem .75rem; font-weight: var(--font-medium); border-radius: .5rem; }
 .work-card { background-color: var(--box-color); padding: 1.25rem; border-radius: .5rem; }
@@ -423,7 +423,7 @@ textarea.input { padding: 0.8rem 1.2rem; min-height: 140px; border-radius: .5rem
 @media screen and (max-width: 1216px) {
     .about-container { column-gap: 2.5rem; }
     .about-description { padding-right: 0; }
-    .work-container { grid-template-columns: repeat(2, 330px); gap: 3rem; }
+    .work-container { grid-template-columns: repeat(1, 600px); gap: 3rem; }
 }
 
 @media screen and (max-width: 1024px) {
@@ -527,8 +527,13 @@ textarea.input { padding: 0.8rem 1.2rem; min-height: 140px; border-radius: .5rem
 }
 
 .work-tech-list{
-    font-size: 13px; 
+    font-size: 15px; 
     margin-top: 20px; 
     margin-bottom: 20px;
+}
+
+.work-image {
+    border-radius: 8px; /* optionnel : coins arrondis */
+    margin-bottom: 1rem; /* espace entre image et le paragraphe */
 }
 
