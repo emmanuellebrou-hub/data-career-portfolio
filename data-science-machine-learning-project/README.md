@@ -1,7 +1,7 @@
 # Stock Market Predictor
 
-Application web et projet de **modélisation prédictive** permettant de visualiser et prédire l’évolution des cours boursiers.  
-Le projet inclut le code d’entraînement, la sauvegarde réutilisable des modèles (Keras et PyTorch) et l’application web pour la mise en production.
+Projet de **modélisation prédictive** permettant de visualiser et prédire l’évolution des cours boursiers.  
+Le projet inclut le code d’entraînement, la sauvegarde réutilisable des modèles (Keras et PyTorch).
 
 ---
 
@@ -21,5 +21,6 @@ Le projet inclut le code d’entraînement, la sauvegarde réutilisable des mod�
 
 - **Intégrer le modèle à une application web Streamlit** :  
   Ajouter des fonctionnalités interactives avancées comme la sélection de plusieurs actions à comparer, l’affichage de graphiques dynamiques ou le téléchargement des prédictions.
+
 
 
