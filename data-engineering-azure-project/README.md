@@ -1,32 +1,25 @@
-# Projet Azure – Pipeline de Données pour Tableau de Bord Power BI
+# Projet Azure – Pipeline de Données pour Power BI
 
 ## Description
 
-Ce projet a pour objectif de **mettre en place une infrastructure Azure complète** pour l'extraction, la transformation et le chargement (ETL) des données de ventes depuis un serveur SQL Server (SSMS) vers Power BI.  
+Ce projet consistait à mettre en place un **pipeline ETL complet** sur Azure pour traiter les données de ventes depuis un serveur SQL Server jusqu’à Power BI.  
 
-Il inclut :  
-- Les **requêtes SQL**.  
-- Les **pipelines Azure Data Factory (ADF)** pour transformer et nettoyer les données.  
-- Les **fichiers JSON** de configuration Azure.  
-- Le fichier **Power BI Desktop (.pbix)** pour la destination des données (sans visuels).  
+Mon rôle principal a été de :  
+- Concevoir et automatiser les **pipelines Azure Data Factory (ADF)** pour extraire, transformer et nettoyer les données  
+- Écrire les **requêtes SQL** nécessaires à l’extraction des données  
+- Créer des **notebooks Databricks** pour les transformations complexes  
+- Préparer le fichier **Power BI Desktop (.pbix)** comme destination des données  
 
-L’accent est mis sur l’infrastructure Azure et l’automatisation du pipeline ETL.
-
----
+Le projet met l’accent sur l’**infrastructure Azure** et l’**automatisation du flux de données**, afin de rendre les datasets prêts pour l’analyse et le reporting.
 
 ## Architecture
 
-![image alt](https://github.com/emmanuellebrou-hub/data-career-portfolio/blob/main/data-engineering-azure-project/project-architecture.png?raw=true)
+![Architecture du Projet](https://github.com/emmanuellebrou-hub/data-career-portfolio/blob/main/data-engineering-azure-project/project-architecture.png?raw=true)
 
----
+## Fichiers du projet
 
-## Fichiers
-
-- azure-data-studio/      : Configuration Git et environnement du projet pour Azure Data Studio ; fichiers JSON 
-- data-destination        : Fichier Power BI Desktop (.pbix) pour la destination des données (sans visuels)
-- databricks/             : Notebooks et scripts liés à Databricks pour le traitement des données
-- sql/                    : Requêtes SQL
-- README.md               : Documentation du projet
-
-
-
+- `azure-data-studio/` : fichiers JSON et configuration pour Azure Data Studio  
+- `data-destination/` : fichier Power BI Desktop (.pbix)  
+- `databricks/` : notebooks et scripts de transformation  
+- `sql/` : requêtes SQL pour extraction des données  
+- `README.md` : documentation du projet
