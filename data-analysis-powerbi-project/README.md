@@ -1,26 +1,52 @@
- Power BI Direct Query – Real-Time Sales Simulation  
+# Analyse de la performance des ventes – Tableau de bord Power BI
 
-##  Description  
-Ce projet illustre la mise en place d’un rapport **Power BI en Direct Query**, permettant une **mise à jour en temps réel** des visualisations.  
-Les données de ventes sont simulées via des **requêtes SQL dynamiques**, ce qui permet d’observer directement l’impact sur les tableaux de bord Power BI sans rechargement manuel.  
+## Présentation du projet
+Ce projet consiste en la création d’un **rapport de performance des ventes dynamique** avec Power BI, intégrant des fonctionnalités avancées pour offrir une analyse claire et interactive.  
 
-## Objectifs  
-- Démontrer la connexion **Direct Query** entre Power BI et SQL Server.  
-- Simuler des ventes en insérant des données via des requêtes SQL.  
-- Visualiser en **temps réel** l’évolution des KPIs dans Power BI.  
+### Objectifs clés
+- Analyser le **Chiffre d’affaires (CA)**, la **Quantité vendue** et la **Marge brute**  
+- Permettre une navigation intuitive entre différents indicateurs grâce aux mesures dynamiques  
+- Mettre en évidence les valeurs critiques via le **formatage conditionnel**  
 
-## Technologies utilisées  
-- **Power BI Desktop / Service** (mode Direct Query)  
-- **SQL Server** (base de données de ventes simulées)  
-- **SQL Scripts** pour l’insertion en temps réel  
-- **DAX** pour les mesures (CA, nombre de ventes, panier moyen, etc.)  
+---
 
-## Structure du projet  
-- sql : fichiers des requêtes SQL utilisées
-- pbix : Rapport Power BI connecté en Direct Query à la base de données SQL Server
+## Données & Méthodologie
 
-## Démo 
+1. **Sources de données** :  
+   - Table des transactions de ventes (table de faits)  
+   - Dimensions : Produit, Client, Temps  
 
-<img src="https://github.com/emmanuellebrou-hub/data-career-portfolio/blob/98fe728585ea854b65386b532e00ff24200a2a54/data-analysis-powerbi-project/dashboard_gif.gif" width="600"/>
+2. **Processus ETL** :  
+   - Nettoyage, transformation et modélisation (Power Query)  
+   - Schéma en étoile (Faits & Dimensions)  
+   - Création des **mesures DAX** principales :
+     - CA total  
+     - Quantité vendue  
+     - Marge brute  
+     - Taux de marge %  
+     - Mesures dynamiques pour basculer entre indicateurs (CA / Quantité / Marge)
+
+3. **Formatage conditionnel** :  
+   - Application de règles visuelles (couleurs, icônes) selon seuils définis (ex. : marge faible en rouge)  
+
+---
+
+## Fonctionnalités du tableau de bord
+- **Slicers interactifs** : année, mois, région, produit  
+- **Mesures dynamiques** : choix de l’indicateur affiché selon le contexte  
+- **Visuels dynamiques** :
+  - Tendances (CA, Marge dans le temps)  
+  - Top/Flop produits  
+  - Carte géographique des ventes  
+  - KPIs synthétiques  
+
+- **Formatage conditionnel** : mise en valeur des données critiques  
+
+---
+
+## 🖼️ Aperçu du tableau de bord
+
+
+![image alt](./img/rapport.png)
 
 
