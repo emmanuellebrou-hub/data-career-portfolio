@@ -36,8 +36,6 @@ Ce projet consiste en la création d’un **rapport de performance des ventes dy
 - **Mesures dynamiques** : choix de l’indicateur affiché selon le contexte  
 - **Visuels dynamiques** :
   - Tendances (CA, Marge dans le temps)  
-  - Top/Flop produits  
-  - Carte géographique des ventes  
   - KPIs synthétiques  
 
 - **Formatage conditionnel** : mise en valeur des données critiques  
@@ -48,5 +46,6 @@ Ce projet consiste en la création d’un **rapport de performance des ventes dy
 
 
 ![image alt](./img/rapport.png)
+
 
 
