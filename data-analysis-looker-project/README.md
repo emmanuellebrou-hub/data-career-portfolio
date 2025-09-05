@@ -5,10 +5,9 @@ Ce projet a pour objectif d'analyser un jeu de données afin de produire des ins
 Il inclut le traitement des données, l'analyse exploratoire, la modélisation et la présentation des résultats.
 
 ## Contenu du dépôt
-- `data/` : dossier contenant les fichiers sources de données  
-- `notebooks/` : notebooks Python pour le traitement, l'analyse et la visualisation des données  
-- `report.pdf` : rapport détaillé du projet incluant la méthodologie, les résultats et les recommandations  
-- `requirements.txt` : liste des bibliothèques Python nécessaires pour reproduire le projet
+- `Profit_analysis.pdf` : rapport au format pdf  
+- `Sales.xlsx` : fichier source des données de ventes  
+- `profit_dashboard.png` : capture d'écran du dashboard créé pour la visualisation des résultats  
 
 ## Méthodologie
 - **Collecte des données** : récupération et organisation des fichiers sources  
