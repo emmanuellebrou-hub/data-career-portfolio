@@ -26,8 +26,7 @@
 
 ### 2. Project Timeline
 - **Gantt chart** pour start / end dates  
-- Line chart : projets par mois/année  
-- Suivi du **% Completion**  
+- Line chart : projets par mois/année   
 
 ![Project Timeline](./img/project_timeline.png)
 
