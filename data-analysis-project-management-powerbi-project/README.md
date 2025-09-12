@@ -51,9 +51,10 @@
 
 ---
 
-/data-analysis-project-management-powerbi-project/
-├─ /data/                                            # Données sources csv
-├─ project_management_dashboard.pbix                 # Fichier Power BI
-├─ /img/                                             # Captures d’écran des dashboards et icones
-├─ /dashboard_background/                            # Backgrounds PowerPoint
-└─  README.md                                        # Documentation du projet
+## /data-analysis-project-management-powerbi-project/
+
+- /data/                                            # Données sources csv
+- project_management_dashboard.pbix                 # Fichier Power BI
+- /img/                                             # Captures d’écran des dashboards et icones
+- /dashboard_background/                            # Backgrounds PowerPoint
+-  README.md                                        # Documentation du projet
