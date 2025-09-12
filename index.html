@@ -186,14 +186,51 @@
         <section class="work section" id="work">
             <h2 class="section-title">Mes projets récents</h2>
             <div class="work-container container grid">
+
                 <div class="work-card mix">
-                    <h3 class="work-title">Ingénierie de données et Cloud</h3>
+                    <h3 class="work-title">Mise en place d'un dashboard pour le suivi de portefeuille projets</h3>
+
+                    <!-- Image ajoutée après le titre -->
+                    <img src=".\img\project_summary.png" class="work-image">
+
+                    <p> Power BI — Project Management Dashboard (3 pages) : Project Summary, Project Timeline (Gantt), Project Details. 
+                        Construit de A à Z : Power Query (nettoyage), modèle de données optimisé, mesures DAX, Gantt interactif, boutons de navigation personnalisés et fonds créés via PowerPoint.
+                    </p>
+
+                    <p class="work-tech-list">Outils: Microsoft Power BI | DAX |Power Query | PowerPoint
+                    </p> 
+
+                    <a href="https://github.com/emmanuellebrou-hub/data-career-portfolio/tree/main/data-analysis-project-management-powerbi-project" class="work-button">
+                        voir le code source<i class="uil uil-arrow-right work-button-icon"></i>
+                    </a>
+                </div>
+
+                <div class="work-card mix">
+                  <h3 class="work-title">Apprentissage automatique : Prédiction du taux de départ des employés </h3>
+                     <!-- Image ajoutée après le titre -->
+                    <img src=".\img\Employee_churn_prediction_dashboard.png" class="work-image"> 
+                    <p> L’objectif de ce projet est de prédire la probabilité qu’un employé quitte son entreprise (employee churn) en exploitant ses caractéristiques (satisfaction, salaire, ancienneté, département, etc.). 
+                        Scope: Anticiper les départs d'employés, Identifier les facteurs clés, Automatiser le choix du modèle de prédiction suivant les données, Fournir une source de données enrichie pour les analyses RH.
+                    </p>
+
+                    <p class = "work-tech-list">Outils: Python Python 3 | Pandas | NumPy | Matplotlib | Seaborn | Scikit-learn | TPOT | google-cloud-storage | Google Colab | Looker
+                    </p> 
+                    
+                    <a href="https://github.com/emmanuellebrou-hub/data-career-portfolio/tree/main/data-science-analysis-GoogleCloud-Looker-project" class="work-button">
+                                voir le code source<i class="uil uil-arrow-right work-button-icon"></i>
+                    </a>
+                </div> 
+
+                <div class="work-card mix">
+                    <h3 class="work-title">Mise en place complète d'une infrastructure Cloud Azure</h3>
 
                     <!-- Image ajoutée après le titre -->
                     <img src=".\img\project-architecture.png" class="work-image">
 
-                    <p> Mise en place d'une infrastructure Azure complète pour l'extraction, 
-                        la transformation et le chargement des données de ventes depuis un serveur SQL Server vers Power BI.
+                    <p>
+                        Conception et déploiement d’une infrastructure ETL complète sur Azure pour automatiser l’extraction, la transformation et le chargement des données
+                        de ventes depuis SQL Server vers Power BI. Optimisation des pipelines avec Data Factory, Databricks et Synapse Analytics pour fournir des rapports fiables, 
+                        interactifs et performants, facilitant la prise de décision stratégique.
                     </p>
 
                     <p class="work-tech-list">Outils: Microsoft SQL Server | SQL | Microsoft Azure : Azure Data Factory, Azure Data Lake, Databricks, Synapse Analytics
@@ -206,10 +243,11 @@
                 </div>
 
                 <div class="work-card mix">
-                  <h3 class="work-title">Apprentissage automatique : prédiction</h3>
+                  <h3 class="work-title">Apprentissage automatique : prédiction du coût boursier</h3>
                      <!-- Image ajoutée après le titre -->
-                    <img src=".\img\python-prediction.png" class="work-image"> 
-                    <p> Dévéloppement d’un modèle de prédiction du cours boursier d’un titre à partir de son code (ticker). Les données d'apprentissage sont récupérées en temps réel via Yahoo Finance
+                    <img src=".\img\python-prediction.png" class="work-image" width="500" height="330"> 
+                    <p>Développement d’un modèle de machine learning capable de prédire le cours d’un titre à partir de son code (ticker), avec données récupérées en temps réel 
+                        via Yahoo Finance. Conception du pipeline complet d’ingestion et de préparation des données, puis création d’un modèle prêt à être intégré dans une application Python.
                     </p>
 
                     <p class = "work-tech-list">Outils: Python : sklearn, keras, tensorflow, streamlit | Jupyter Notebook
@@ -221,12 +259,13 @@
                 </div>                
 
                 <div class="work-card mix">
-                  <h3 class="work-title">Analyse de données - Power BI</h3>
+                  <h3 class="work-title">Analyse des performances de ventes - Power BI</h3>
 
                      <!-- Image ajoutée après le titre -->
                     <img src=".\img\powerbi-project.png" class="work-image">     
 
-                    <p> Mise en place d’un rapport Power BI intéractifs, pour l'analyse des performances.
+                    <p> Création d’un rapport interactif Power BI pour le suivi des performances commerciales. Intégration de mesures DAX complexes pour analyser 
+                        les ventes par produit, région et période, permettant une prise de décision stratégique éclairée.
                     </p>
 
                     <p class = "work-tech-list">
@@ -239,12 +278,13 @@
                 </div>
 
                 <div class="work-card mix">
-                  <h3 class="work-title">Analyse de données - Looker Studio</h3>
+                  <h3 class="work-title">Analyse de performances de ventes - Looker Studio</h3>
 
                      <!-- Image ajoutée après le titre -->
                     <img src=".\img\looker-project.png" class="work-image">
 
-                    <p> Mise en place d’un rapport looker intéractifs, pour l'analyse des ventes.
+                    <p> Création d’un rapport interactif Looker Studio pour analyser les ventes par produit, région et période, 
+                        avec visualisations dynamiques permettant une lecture rapide des KPI et tendances commerciales.
                     </p>
 
                     <p class = "work-tech-list">
@@ -258,32 +298,6 @@
 
             </div>
         </section>
-
-        <div class="portfolio-popup">
-            <div class="portfolio-popup-inner">
-                <div class="portfolio-popup-content grid">
-                    <span class="portfolio-popup-close"><i class="uil uil-times"></i></span>
-                    <div class="pp-thumbnail">
-                        <img src="https://i.postimg.cc/sXLjnC5p/work-2.png" alt="" class="portfolio-popup-img">
-                    </div>
-
-                    <div class="portfolio-popup-info">
-                        <div class="portfolio-popup-subtitle">Featured - <span>Design</span></div>
-                        <div class="portfolio-popup-body">
-                            <h3 class="details-title">App for Technology & Services</h3>
-                            <p class="details-description">A stylish burger restaurant mobile app interface displayed on two smartphones</p>
-
-                            <ul class="details-info">
-                                <li>Created - <span>15 Apr 2025</span></li>
-                                <li>Technologies - <span>html css</span></li>
-                                <li>Role - <span>frontend</span></li>
-                                <li>View - <span><a href="#">www.domain.com</a></span></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <section class="contact section" id="contact">
             <h2 class="section-title" >Contact</h2>
